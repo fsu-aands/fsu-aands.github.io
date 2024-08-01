@@ -78,14 +78,14 @@ departmentAssets = [
   {
     name: "Department of Biological Science",
     lockup:
-      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Biological%20Science%20signature.png",
+      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Biological%20Science%20signature%20alt.png",
     linktree: "https://linktr.ee/fsubiology",
     website: "https://www.bio.fsu.edu/",
   },
   {
     name: "Department of Chemistry and Biochemistry",
     lockup:
-      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Chemistry%20Biochemistry%20signature.png",
+      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Chemistry%20Biochemistry%20signature%20alt.png",
     linktree: "https://linktr.ee/fsuchemistry",
     website: "https://www.chem.fsu.edu/",
   },
@@ -183,7 +183,7 @@ departmentAssets = [
   {
     name: "Center for Ocean-Atmospheric Prediction Studies",
     lockup:
-      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Center%20for%20Ocean-Atmospheric%20Prediction%20Studies%20signature.png",
+      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Center%20for%20Ocean-Atmospheric%20Prediction%20Studies%20signature%20alt.png",
     linktree: "",
     website: "https://www.coaps.fsu.edu/",
   },
@@ -211,7 +211,7 @@ departmentAssets = [
   {
     name: "Office of Stem Teaching Activities",
     lockup:
-      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Office%20of%20Stem%20Teaching%20Activities%20signature.png",
+      "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Office%20of%20Stem%20Teaching%20Activities%20signature%20alt.png",
     linktree: "https://linktr.ee/fsubiology",
     website: "https://www.bio.fsu.edu/osta/",
   },
