@@ -1,0 +1,178 @@
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 3% 0% 0%;
+}
+
+.container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+aside.container {
+  max-width: 1100px;
+  margin-top: 0px;
+}
+
+aside.container div {
+  margin: 2px;
+  text-align: center;
+  padding: 0px 3rem;
+}
+
+aside.container h2 {
+  background: #dfd1a7;
+  border-radius: 50%;
+  padding: 20px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #782f40;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.column {
+  margin: 3%;
+  width: 40%;
+}
+
+.column.wider {
+  width: 60%;
+  margin: 3%;
+}
+
+.displaySignature {
+  margin-top: 10px;
+  padding: 30px;
+  background: white;
+  border: 1px solid lightgray;
+  /*  dark mode added to this and the link children  */
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 95%;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.brandedBtn {
+  background: #782f40;
+  color: white;
+  border: none;
+  display: block;
+  margin: 10px 0px;
+  padding: 11px;
+  border-radius: 3px;
+}
+
+.brandedBtn:hover {
+  background: #572932;
+  color: white;
+}
+
+.brandedBtn:active,
+.brandedBtn:visited {
+  background: #a6192e;
+}
+
+label {
+  font-family: "Open Sans";
+  font-size: 13px;
+  display: block;
+  margin-top: 1rem;
+  font-weight: 100;
+}
+
+nav {
+  background: #782f40;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav a img {
+  max-height: 70px;
+}
+
+/* light and darkmode icons */
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.footnote {
+  font-size: 0.6rem;
+}
+.moon-icon {
+  color: gray;
+}
+
+.sun-gold {
+  color: #ffc72c;
+}
+
+.moon-blue {
+  color: #5cb8b2;
+}
+
+.dark-mode {
+  background: #111;
+  color: white;
+}
+
+.dark-link a {
+  color: #1e90ff;
+}
+
+.brandedBtnAlt {
+  background: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 11px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* media queries for phones */
+@media (max-width: 868px) {
+  .column,
+  .column.wider {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .displaySignature {
+    padding: 5px;
+  }
+}

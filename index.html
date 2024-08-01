@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#"
+        ><img
+          src="https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/2024-07/Gold_Formal-H.svg"
+      /></a>
+    </nav>
+    <!-- container start -->
+    <h1>Create your new official FSU email signature in three easy steps.</h1>
+    <aside class="container">
+      <div>
+        <h2>1</h2>
+        <p>
+          Begin typing your information in the form below which will
+          auto-populate the email signature for you.
+        </p>
+      </div>
+
+      <div>
+        <h2>2</h2>
+        <p>
+          Click the copy button and your email signature will be automatically
+          copied toyour clipboard.
+        </p>
+      </div>
+
+      <div>
+        <h2>3</h2>
+        <p>
+          Open your email program and go to settings, then signatures, then
+          create a new signature and paste.
+        </p>
+      </div>
+    </aside>
+    <main class="container">
+      <section class="column">
+        <form>
+          <!-- Form start -->
+
+          <!-- name -->
+          <label id="nameLabel" for="nameInput">Full Name (Required)</label>
+          <input type="text" id="nameInput" placeholder="Fullname" />
+
+          <!-- title -->
+          <label id="jobLabel" for="titleInput">Job title(s) (Required)</label>
+          <textarea
+            rows="5"
+            style="height: 65px"
+            type="text"
+            id="titleInput"
+            placeholder="Job title"
+          ></textarea>
+
+          <!-- Email -->
+          <label for="emailInput">Email address</label>
+          <input type="email" id="emailInput" placeholder="name@example.com" />
+          <!-- phone -->
+          <label for="phoneInput">Office Phone</label>
+          <input type="tel" id="phoneInput" placeholder="(850) 123-4567" />
+
+          <!-- cell phone -->
+          <label for="cellInput">Cell Phone</label>
+          <input type="tel" id="cellInput" placeholder="(850) 123-4567" />
+
+          <!-- organization dropdown -->
+          <label for="orgInput"
+            >Department, program, center, or institute (website, linktree and
+            logo will be automatically added)</label
+          >
+          <select
+            class="form-select"
+            id="orgInput"
+            aria-label="Select division within college"
+          ></select>
+        </form>
+      </section>
+
+      <section class="column wider">
+        <div class="toggle-container">
+          <span class="sun-icon sun-gold material-symbols-outlined">
+            light_mode
+          </span>
+          <span class="moon-icon material-symbols-outlined"> dark_mode </span>
+
+          <button class="brandedBtn brandedBtnAlt" style="display: inlineblock">
+            Preview light and dark modes
+          </button>
+        </div>
+
+        <div class="displaySignature">
+          <!-- DISPLAY EMAIL SIGNATURE START -->
+          <div
+            id="emailSignature"
+            style="font-family: Arial, Helvetica, sans-serif"
+          >
+            <!-- display name -->
+            <div>
+              <span id="namePlate" style="font-size: 18px"
+                ><b>FirstName LastName</b></span
+              >
+            </div>
+            <!-- display title -->
+            <div>
+              <span id="titlePlate" style="font-size: 15px">Job Title</span>
+            </div>
+            <!--      FSU text      -->
+            <div>
+              <span id="fsuPlate" style="font-size: 15px"
+                >Florida State University</span
+              >
+            </div>
+
+            <!--      department name      -->
+            <div>
+              <span id="orgNamePlate" style="font-size: 15px"
+                >Department or Program</span
+              >
+            </div>
+            <!-- display email -->
+            <div>
+              <span id="emailPlate" style="font-size: 15px">Email</span>
+            </div>
+            <!-- display phone -->
+            <div>
+              <span id="phonePlate" style="font-size: 15px">Office</span>
+            </div>
+
+            <!-- display phone -->
+            <div>
+              <span id="cellPlate" style="font-size: 15px">Cell</span>
+            </div>
+            <!--  display website  -->
+            <div>
+              <span id="webPlate" style="font-size: 15px"
+                ><a href="https://www.fsu.edu/">fsu.edu</a></span
+              >
+            </div>
+            <!--  display linktree  -->
+            <div>
+              <span id="linktreePlate" style="font-size: 15px"
+                ><a href="https://www.fsu.edu/socialmedia/"
+                  >www.fsu.edu/socialmedia</a
+                ></span
+              >
+            </div>
+            <!-- organization display -->
+            <div>
+              <span id="orgPlate" style="font-size: 15px"
+                ><img
+                  height="70"
+                  style="height: 70px; margin-top: 3px"
+                  src="https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/FSU%20Florida%20State%20University%20signature.png"
+              /></span>
+            </div>
+          </div>
+          <!-- DISPLAY EMAIL SIGNATURE END -->
+        </div>
+
+        <button class="brandedBtn" id="copyButton">Copy Email Signature</button>
+
+        <p class="footnote">
+          Light and/or dark mode designs do not have to be copied separately,
+          this is handled within your email program.
+        </p>
+
+        <p class="footnote">
+          Works best in the Microsoft Outlook desktop application or the
+          Microsoft 365 website application.
+        </p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
