@@ -80,14 +80,14 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Biological%20Science%20signature%20alt.png",
     linktree: "https://linktr.ee/fsubiology",
-    website: "https://bio.fsu.edu/",
+    website: "https://www.bio.fsu.edu/",
   },
   {
     name: "Department of Chemistry and Biochemistry",
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Chemistry%20Biochemistry%20signature%20alt.png",
     linktree: "https://linktr.ee/fsuchemistry",
-    website: "https://chem.fsu.edu/",
+    website: "https://www.chem.fsu.edu/",
   },
   {
     name: "Department of Classics",
@@ -101,7 +101,7 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Computer%20Science%20signature.png",
     linktree: "https://linktr.ee/fsucomputerscience",
-    website: "https://cs.fsu.edu/",
+    website: "https://www.cs.fsu.edu/",
   },
   {
     name: "Department of Earth, Ocean, and Atmospheric Science",
@@ -129,7 +129,7 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Mathematics%20signature.png",
     linktree: "https://linktr.ee/fsumathematics",
-    website: "https://math.fsu.edu/",
+    website: "https://www.math.fsu.edu/",
   },
   {
     name: "Department of Modern Languages and Linguistics",
@@ -171,7 +171,7 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Scientific%20Computing%20signature.png",
     linktree: "https://linktr.ee/fsuscicomp",
-    website: "https://sc.fsu.edu/",
+    website: "https://www.sc.fsu.edu/",
   },
   {
     name: "Department of Statistics",
@@ -185,7 +185,7 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Center%20for%20Ocean-Atmospheric%20Prediction%20Studies%20signature%20alt.png",
     linktree: "",
-    website: "https://coaps.fsu.edu/",
+    website: "https://www.coaps.fsu.edu/",
   },
   {
     name: "Institute of Molecular Biophysics",
@@ -213,7 +213,7 @@ departmentAssets = [
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Office%20of%20Stem%20Teaching%20Activities%20signature%20alt.png",
     linktree: "https://linktr.ee/fsubiology",
-    website: "https://bio.fsu.edu/osta/",
+    website: "https://www.bio.fsu.edu/osta/",
   },
   {
     name: "Program in Neuroscience",
