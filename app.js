@@ -184,7 +184,7 @@ departmentAssets = [
     name: "Center for Ocean-Atmospheric Prediction Studies",
     lockup:
       "https://artsandsciences.fsu.edu/sites/g/files/upcbnu321/files/email-lockups/Center%20for%20Ocean-Atmospheric%20Prediction%20Studies%20signature%20alt.png",
-    linktree: "",
+    linktree: "https://linktr.ee/fsucoaps",
     website: "https://www.coaps.fsu.edu/",
   },
   {
